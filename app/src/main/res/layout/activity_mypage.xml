@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4FDFDFE1"
+    tools:context=".mypage">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="453dp"
+        android:layout_height="239dp"
+        android:background="@drawable/mypage1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_version"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="버전정보"
+        app:layout_constraintEnd_toEndOf="@+id/button13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button13"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="내위치"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="내정보"
+        app:layout_constraintEnd_toEndOf="@+id/button11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="제품정보"
+        app:layout_constraintEnd_toEndOf="@+id/button12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/btn_inquire"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="문의하기"
+        app:layout_constraintEnd_toEndOf="@+id/btn_version"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_version"
+        app:layout_constraintTop_toBottomOf="@+id/btn_version" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_version" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="72dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_version" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button11" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="135dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/ic5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:text="닉네임/이름"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="97dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/mypage123"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:text="프로필 설정"
+        android:textColor="#DAD8D8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="20dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_version"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_version"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic1"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_inquire"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_inquire" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic2"
+        app:layout_constraintBottom_toBottomOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button11"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="20dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic3"
+        app:layout_constraintBottom_toBottomOf="@+id/button12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button12"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic4"
+        app:layout_constraintBottom_toBottomOf="@+id/button13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button13"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:text="환경설정"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

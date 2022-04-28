@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4FDFDFE1"
+    tools:context=".mypage">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="497dp"
+        android:layout_height="227dp"
+        android:background="@drawable/mypage1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-55dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="내위치"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <Button
+        android:id="@+id/btn_version"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="버전정보"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/button13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button13"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="제품정보"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/button12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="문의하기"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_version"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_version"
+        app:layout_constraintTop_toBottomOf="@+id/btn_version" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_version" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="43dp"
+        android:background="#AFABAB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_version"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="56dp"
+        android:background="#AFABAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button11" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="27dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_version"
+        app:layout_constraintTop_toTopOf="@+id/btn_version"
+        app:layout_constraintVertical_bias="0.075"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="21dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="368dp"
+        android:src="@drawable/ic1"
+        app:layout_constraintBottom_toBottomOf="@+id/button15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_version"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic2"
+        app:layout_constraintBottom_toBottomOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button11"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="37dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic3"
+        app:layout_constraintBottom_toBottomOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        app:layout_constraintVertical_bias="0.416"
+        tools:layout_editor_absoluteX="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="26dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic4"
+        app:layout_constraintBottom_toTopOf="@+id/btn_version"
+        app:layout_constraintTop_toBottomOf="@+id/view8"
+        app:layout_constraintVertical_bias="0.424"
+        tools:layout_editor_absoluteX="21dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mypage2"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="60dp"
+        android:text="내정보"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/button11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        android:background="@drawable/mypage123"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:text="프로필 설정"
+        android:textColor="#E4E1E1"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="135dp"
+        android:layout_height="164dp"
+        android:src="@drawable/ic5"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:text="닉네임/이름"
+        android:textColor="#FDFCFC"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:text="환경설정"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
